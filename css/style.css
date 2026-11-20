@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
 }
 
 /* Navigation */
@@ -167,7 +168,7 @@
 
 @media (max-width:768){
 .features{
-    flex-direction: column;
+    flex-direction: vertical;
 }
 }
 
