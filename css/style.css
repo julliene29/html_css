@@ -167,6 +167,180 @@
 
 @media (max-width:768){
 .features{
-    flex-direction: colum;
+    flex-direction: column;
 }
 }
+
+/* popular courses */
+
+.courses{
+    padding: 40px 20px;
+    background-color:#f8f7fc;
+    text-align: center;
+}
+.course-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.course-header a {
+    color: #5b3cc4;
+    text-decoration: none;
+}
+.courses h2{
+    color: #252044;
+    margin-bottom: 6px;
+
+}
+.courses p{
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.course-list {
+    display: flex;
+    gap: 25px;
+}
+
+.course {
+    flex: 1;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.course img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
+.course h3{
+    margin:12px;
+    color:#252044; ;
+}
+.course p{
+    color: #666;
+    font-size: 12px;
+    margin: 12px;
+}
+
+/* responsive */
+
+@media(max-width:768px){
+    .course-list{
+        flex-direction: column;
+    }
+}
+
+
+.testimonial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 35px 8%;
+}
+
+.testimonial img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testimonial div {
+    border-left: 2px solid #ddd;
+    padding-left: 30px;
+    max-width: 550px;
+}
+
+.testimonial p {
+    font-style: italic;
+    margin-bottom: 12px;
+}
+
+.testimonial span {
+    font-weight: normal;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #20283b;
+    color: white;
+    padding: 40px 8% 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.footer-content div {
+    flex: 1;
+}
+
+.footer h3,
+.footer h4 {
+    margin-bottom: 15px;
+}
+
+.footer p {
+    font-size: 13px;
+    color: #ddd;
+    margin-bottom: 10px;
+}
+
+.footer a {
+    display: block;
+    color: #ddd;
+    text-decoration: none;
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+.footer form {
+    display: flex;
+    gap: 8px;
+}
+
+.footer input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer button {
+    background-color: #5b3cc4;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #444;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+
