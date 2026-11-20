@@ -114,11 +114,59 @@
 
 .hero-status h3 {
     font-size: 25px;
-    color: #5b3cc4;
+    color: black;
     margin-bottom: 5px;
 }
 
 .hero-status p {
     font-size: 13px;
+    font-weight: bold;
+}
+
+/* why choose */
+
+.why-choose{
+    padding: 60px 8%;
+    text-align: center;
+}
+.why-choose h2{
+    font-size: 30px;
+    color: #252044;
+    margin-bottom: 20px;
+}
+.why-choose p{
+    font-size: 16px;
     color: #666;
+    margin-bottom: 25px;
+}
+.features{
+    display:flex;
+    justify-content: space-between;
+    gap: 20px;
+    text-align: left;
+}
+.feature{
+     display: flex;
+    align-items:left;
+    gap:10px;
+    
+}
+.feature h3{
+    font-size:40px;
+    text-align: left;
+    background-color: #989898;
+    
+}
+.feature p{
+    font-size: 14px;
+}
+.feature h4 {
+    color: #252044;
+}
+/* responsive */
+
+@media (max-width:768){
+.features{
+    flex-direction: colum;
+}
 }
